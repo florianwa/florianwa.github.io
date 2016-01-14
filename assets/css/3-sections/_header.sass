@@ -1,20 +1,14 @@
 
-
-
-+MQ(L)
++MQ(S)
+  .arrow
+    display: none
   .logo
-    +size(70px)
-    background: url(../img/GOC1.png) center center
-    background-size: 70px 47px
-    background-repeat: no-repeat
-    position: fixed
-    left: 5px
-    top: 0px
-    padding-right: 5px
-    padding-bottom: 10px
-    margin-bottom: 10px
-    z-index: 888
+    display: none
+  a.back-to-top
+    display: none
 
+
++MQ(M)
   a.back-to-top
     display: none
     width: 40px
@@ -31,32 +25,31 @@
     -moz-border-radius: 30px
     border-radius: 30px
 
-+MQ(S)
-  .arrow
-    display: none
++MQ(L)
   .logo
-    +size(90px)
-    background: url(../img/GOC1.png) center center
-    width: 88px
-    height: 47px
-    background-size: 88px 47px
+    display: block
+    background: url(../img/procon-logo.svg) center center
+    background-size: 260px 50%
     background-repeat: no-repeat
+    position: fixed
+    width: 260px
+    height: 50% 
+    padding-top: 50px
+    margin: 0px 50px 0px
     float: left
-    margin:30px 0 0 30px
-
-
-  a.back-to-top
-    display:none
+    padding-right: 5px
+    padding-bottom: 10px
+    z-index: 888
 
 
 
 header
   +MQ(S)
-    height:300px
+    height: 300px
   +MQ(M)
-    height:390px
+    height: 390px
   +MQ(L)
-    height:450px
+    height: 450px
   background: url(../img/galway2.jpg) center center
   background-size: cover
 
@@ -81,26 +74,26 @@ header
   h1
     text-align: center
 
-    color: rgba(0, 0, 0,0.5)
-    text-transform: uppercase
+    color: rgba(68, 68, 68, 1)
+    //text-transform: uppercase
     letter-spacing: 0.05cm
-    margin-bottom: 20px
+    margin-bottom: 1px
     clear: both
     +MQ(S)
-      padding-top: 20px
+      padding-top: 0px
       font:
         size: 32px
         weight: 350
     +MQ(M)
-      padding-top: 10px
+      padding-top: 0px
       font:
-        size: 30px
+        size: 20px
         weight: 350
 
     +MQ(L)
       padding-top: 50px
       font:
-        size: 72px
+        size: 42px
         weight: 700
     span
       display: inline-block
@@ -111,12 +104,31 @@ header
         padding: 0.1em 0.2em
       +MQ(L)
         padding: 0.2em 0.5em
-      border: rgba(0, 0, 0,0.5) solid 10px
+
 
 
 
   .kicker
     text-align: center
-    @extend %small-bold
-    line-height: 1
-    color: rgba(0,0,0,0.5)
+    @extend h1
+    padding-top: 0px
+    color: rgba(68,68,68,1)
+
+  .kicker-small
+    text-align: center
+    @extend h1
+    letter-spacing: normal
+    padding-top: 0px
+    font-weight: 500
+    color: rgba(68,68,68,1)
+    a
+      border-bottom: 1px dotted #666;
+      color: rgba(68,68,68,1)
+      &:hover
+        border-bottom: 0px dotted #666;
+    +MQ(S)
+      display: none
+    +MQ(L)
+      display: block
+      text-align: center
+ 

@@ -1,7 +1,9 @@
 $(function() {
 	smoothScroll(300);
 
-	$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
+	$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '42px' });
+	$("header .kicker").fitText(5, { minFontSize: '20px', maxFontSize: '38px' });
+	$("header .kicker-small").fitText(5, { minFontSize: '20px', maxFontSize: '23px' });
 	$(".biglink").fitText(1.5);
 
 	$('textarea').autosize();
