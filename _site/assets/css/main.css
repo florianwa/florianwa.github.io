@@ -866,10 +866,12 @@ footer {
       order: 5;
       -ms-flex-order: 5;
       display: block; }
-    .about-lock .logo-icon:hover {
-      -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      transform: scale(1.1); }
+    .about-lock .logo-icon {
+      padding-top: 80px; }
+      .about-lock .logo-icon:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1); }
     .about-lock .logo-icon:before {
       display: block;
       font-size: 60px;
@@ -891,13 +893,24 @@ footer {
   font-weight: 30;
   text-align: justify; }
 
+.i-center {
+  text-align: center; }
+
+.simple-text-caption {
+  max-width: 650px;
+  font-size: 16px;
+  padding: 0 15px;
+  margin: 0px auto 150px;
+  text-align: center; }
+
 .topics {
   background: #e5eaee; }
 
 .simple-text {
   max-width: 750px;
+  font-size: 16px;
   padding: 0 15px;
-  margin: 0px auto; }
+  margin: 0px auto 150px; }
 
 .section-contact {
   background: #e5eaee;
