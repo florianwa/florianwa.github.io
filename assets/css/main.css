@@ -531,6 +531,10 @@ header .kicker-small, h2, h3, h4, h5, h6 {
   font-size: 10px;
   line-height: 1.2; }
 
+section {
+  border-top: 1px solid;
+  padding: 0px 0px 150px; }
+
 p {
   margin: 0 0 20px 0; }
 
@@ -721,6 +725,13 @@ header {
         display: block;
         text-align: center; } }
 
+.highlight {
+  font-size: 17px;
+  border-bottom: 1px dotted #666;
+  color: #444444; }
+  .highlight:hover {
+    border-bottom: 0px dotted #666; }
+
 footer {
   background: url(../img/galway3.jpg) center center;
   background-size: cover; }
@@ -893,29 +904,68 @@ footer {
   font-weight: 30;
   text-align: justify; }
 
-.i-center {
-  text-align: center; }
-
 .simple-text-caption {
   max-width: 650px;
   font-size: 16px;
   padding: 0 15px;
-  margin: 0px auto 150px;
+  margin: 0px auto 0px;
   text-align: center; }
+
+.simple-text {
+  position: relative;
+  max-width: 750px;
+  font-size: 16px;
+  text-align: justify;
+  padding: 15px 15px;
+  margin: 0px auto 10px; }
+
+.simple-text-box {
+  position: relative;
+  max-width: 750px;
+  font-size: 16px;
+  text-align: justify;
+  padding: 15px 15px;
+  margin: 0px auto 10px; }
+
+.simple-text-box-left {
+  width: 150px;
+  padding: 15px 15px;
+  font-size: 18px;
+  position: absolute;
+  left: -150px;
+  top: -3px;
+  text-align: right; }
+
+.simple-text-box-right {
+  width: auto; }
+
+.simple-text-box-large {
+  position: relative;
+  max-width: 750px;
+  font-size: 17px;
+  text-align: justify;
+  padding: 15px 15px;
+  margin: 0px auto 10px; }
+
+.simple-text-box-large-left {
+  width: 150px;
+  padding: 15px 15px;
+  font-size: 19px;
+  position: absolute;
+  left: -150px;
+  top: -3px;
+  text-align: right; }
+
+.simple-text-box-large-right {
+  width: auto; }
 
 .topics {
   background: #e5eaee; }
 
-.simple-text {
-  max-width: 750px;
-  font-size: 16px;
-  text-align: justify;
-  padding: 0 15px;
-  margin: 0px auto 150px; }
-
 .section-contact {
   background: #e5eaee;
-  text-align: center; }
+  text-align: center;
+  border-top: 1px solid; }
 
 .social-links {
   max-width: 700px;
@@ -987,12 +1037,14 @@ footer {
   box-sizing: border-box; }
 
 .history {
-  background: #e5eaee; }
+  background: #e5eaee;
+  border-top: 1px solid; }
 
 .cd-width {
   background: #e5eaee; }
 
 .cd-container {
+  border-top: 0px;
   background: #e5eaee;
   width: 90%;
   max-width: 1070px;
@@ -1261,6 +1313,9 @@ footer {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0); } }
+
+.committee {
+  background: #e5eaee; }
 
 form {
   max-width: 450px;
