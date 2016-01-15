@@ -604,11 +604,14 @@ header nav a, footer .lockup a, #h_small #nav_small a, #h_small .kicker {
   text-transform: uppercase; }
 
 .spacer {
-  background: transparent;
-  min-height: 400px; }
+  background: transparent; }
 
 .spacer-height {
-  height: 100px; }
+  height: 100px;
+  min-height: 400px; }
+
+.spacer-height-small {
+  height: 10px; }
 
 @media only screen and (min-width: 220px) {
   .arrow {
