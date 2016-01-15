@@ -533,7 +533,7 @@ header .kicker-small, h2, h3, h4, h5, h6 {
 
 section {
   border-top: 1px solid;
-  padding: 0px 0px 150px; }
+  padding: 0px 0px 50px; }
 
 p {
   margin: 0 0 20px 0; }
@@ -578,10 +578,10 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #FFF498; }
+  -webkit-tap-highlight-color: #FFF498;
+  background: transparent; }
 
 body {
-  background: #f4f4f7;
   font-size: 14px;
   line-height: 1.6;
   font-family: 'Open Sans' sans-serif;
@@ -602,6 +602,13 @@ header nav a, footer .lockup a, #h_small #nav_small a, #h_small .kicker {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase; }
+
+.spacer {
+  background: transparent;
+  min-height: 400px; }
+
+.spacer-height {
+  height: 100px; }
 
 @media only screen and (min-width: 220px) {
   .arrow {
@@ -644,7 +651,6 @@ header nav a, footer .lockup a, #h_small #nav_small a, #h_small .kicker {
     z-index: 888; } }
 
 header {
-  background: url(../img/galway2.jpg) center center;
   background-size: cover; }
   @media only screen and (min-width: 220px) {
     header {
@@ -724,6 +730,9 @@ header {
       header .kicker-small {
         display: block;
         text-align: center; } }
+
+#home {
+  background: #f4f4f7; }
 
 .highlight {
   font-size: 17px;
@@ -896,6 +905,9 @@ footer {
   .about-lock {
     max-width: 980px; } }
 
+.about {
+  background: #f4f4f7; }
+
 .blurb {
   max-width: 750px;
   padding: 0 15px;
@@ -962,7 +974,7 @@ footer {
 .topics {
   background: #e5eaee; }
 
-.section-contact {
+.contact {
   background: #e5eaee;
   text-align: center;
   border-top: 1px solid; }
@@ -1316,6 +1328,9 @@ footer {
 
 .committee {
   background: #e5eaee; }
+
+.submission {
+  background: #f4f4f7; }
 
 form {
   max-width: 450px;
