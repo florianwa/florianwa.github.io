@@ -598,7 +598,7 @@ h2 {
   margin-bottom: 0px; }
 
 header nav a, footer .lockup a, #h_small #nav_small a, #h_small .kicker {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase; }
 
@@ -606,11 +606,11 @@ header nav a, footer .lockup a, #h_small #nav_small a, #h_small .kicker {
   background: transparent; }
 
 .spacer-height {
-  height: 50px;
+  height: 500px;
   min-height: 50px; }
 
 .spacer-height-small {
-  height: 10px; }
+  height: 20px; }
 
 @media only screen and (min-width: 220px) {
   .arrow {
@@ -648,7 +648,8 @@ header {
     header {
       height: 450px; } }
   header nav {
-    float: right;
+    text-align: center;
+    padding-top: 30px;
     margin: 30px 30px 30px; }
     header nav a {
       margin-left: 20px;
