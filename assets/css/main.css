@@ -750,7 +750,7 @@ header {
 
 .photobanner img {
   margin-left: 50px;
-  max-height: 63px;
+  max-height: 80px;
   vertical-align: middle;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
