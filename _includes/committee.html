@@ -1,65 +1,68 @@
 <section id="committee" class="committee">
-<h2>Workshop Committee</h2>
-<hr class="bar"/>
-<div class="about-lock">
-</div>
-<div class="simple-text">
-<div class="i-center">
-Workshop co-chairs
-</div>
-<ul>
-<li>Florian Wamser, University of Würzburg, Germany</li>
-<li>Roberto Bruschi, Consortium for Telecommunications (CNIT), Genova, Italy</li>
-<li>Anastasios Zafeiropoulos, Ubitech, Greece</li>
-</ul>
+    <h2>Workshop Committee</h2>
+    <hr class="bar" />
+    <div class="about-lock">
+    </div>
+    <div class="simple-text">
+        <div class="i-center">
+            Workshop co-chairs
+        </div>
+        <ul>
+            <li>Florian Wamser, University of Würzburg, Germany</li>
+            <li>Roberto Bruschi, Consortium for Telecommunications (CNIT), Genova, Italy</li>
+            <li>Anastasios Zafeiropoulos, Ubitech, Greece</li>
+        </ul>
 
-<div class="i-center">
-Technical Program Committee    
-</div>
-<ul>
-<li>Chiara Lombardo, Consortium for Telecommunications (CNIT), Italy</li>
-<li>Michael Seufert, University of Würzburg, Germany</li>
-<li>Sergios Soursos, Intracom Telecom, Peania, Greece</li>
-<li>Ioanna Papafili, Athens University of Economics and Business, Greece</li>
-<li>Giovanni Schembra, Consortium for Telecommunications (CNIT), Italy</li>
-<li>Roman Łapacz, Poznan Supercomputing and Networking Center (PSNC), Poland</li>
-<li>Krzysztof Wajda, AGH University of Science and Technology, Kraków, Poland</li>
-<li>Manzalini Antonio, Telecom Italia, Italy</li>
-<li>Alessandro Rossini, SINTEF, Trondheim, Norway</li>
-<li>Robert Birke, IBM Research, Zurich, Switzerland</li>
-<li>Matteo Repetto, Consortium for Telecommunications (CNIT), Genova, Italy</li>
-<li>Paolo Lago, Consortium for Telecommunications (CNIT), Genova, Italy</li>
-<li>Panagiotis Gouvas, Ubitech, Greece</li>
-<li>Constantinos Vassilakis, Ubitech, Greece</li>
-<li>Thomas Zinner, University of Würzburg, Germany</li>
-<li>Martin Collier, Dublin City University, Ireland</li>
-<li>Stefan Covaci, Technical University of Berlin, Germany</li>
-<li>Antonio Jara, HOP Ubiquitous, Spain</li>
-<li>Kostas Tsagkaris, University of Piraeus, Greece</li>
-<li>Maciej Mühleisen, Hamburg University of Technology, Germany</li>
-</ul>
-</div>
+        <div class="i-center">
+            Technical Program Committee
+        </div>
+        <ul>
+            <li>Chiara Lombardo, Consortium for Telecommunications (CNIT), Italy</li>
+            <li>Michael Seufert, University of Würzburg, Germany</li>
+            <li>Sergios Soursos, Intracom Telecom, Peania, Greece</li>
+            <li>Ioanna Papafili, Athens University of Economics and Business, Greece</li>
+            <li>Giovanni Schembra, Consortium for Telecommunications (CNIT), Italy</li>
+            <li>Roman Łapacz, Poznan Supercomputing and Networking Center (PSNC), Poland</li>
+            <li>Krzysztof Wajda, AGH University of Science and Technology, Kraków, Poland</li>
+            <li>Manzalini Antonio, Telecom Italia, Italy</li>
+            <li>Alessandro Rossini, SINTEF, Trondheim, Norway</li>
+            <li>Robert Birke, IBM Research, Zurich, Switzerland</li>
+            <li>Matteo Repetto, Consortium for Telecommunications (CNIT), Genova, Italy</li>
+            <li>Paolo Lago, Consortium for Telecommunications (CNIT), Genova, Italy</li>
+            <li>Panagiotis Gouvas, Ubitech, Greece</li>
+            <li>Constantinos Vassilakis, Ubitech, Greece</li>
+            <li>Thomas Zinner, University of Würzburg, Germany</li>
+            <li>Martin Collier, Dublin City University, Ireland</li>
+            <li>Stefan Covaci, Technical University of Berlin, Germany</li>
+            <li>Antonio Jara, HOP Ubiquitous, Spain</li>
+            <li>Kostas Tsagkaris, University of Piraeus, Greece</li>
+            <li>Maciej Mühleisen, Hamburg University of Technology, Germany</li>
+        </ul>
+    </div>
 
 
     <div id="container">
-       <div class="photobanner">
+        <div class="photobanner">
             <span class="photobanner-helper"></span>
             <img class="first" src="assets/img/partners/wue.jpg" alt="" />
             <script language="javascript">
                 var random_images_array = ["cnit.jpg", "ubitech.jpg", "ibm.jpg", "sintf.jpg", "intracom.jpg", "tub.png", "athen.jpg", "poznan.jpg", "agh.jpg", "tim.jpg", "dcu.jpg", "hopu.png", "piraeus.jpg", "tuhh.jpg"];
                 var num = random_images_array.length;
+
                 function getRandomImage() {
-                    var num = Math.floor( Math.random() * random_images_array.length );
-                    var img = random_images_array[ num ];
-                    random_images_array.splice(num,1);
+                    var num = Math.floor(Math.random() * random_images_array.length);
+                    var img = random_images_array[num];
+                    random_images_array.splice(num, 1);
                     //alert("as: " +img + " >" + random_images_array);
-                    return img; 
+                    return img;
                 }
+
                 function setImages() {
                     for (i = 0; i < num; i++) {
                         path = 'assets/img/partners/'; // default path here
                         var imgStr = '<img src="' + path + getRandomImage() + '" alt = ""/>';
-                        document.write(imgStr); document.close();
+                        document.write(imgStr);
+                        document.close();
                     }
                 }
                 setImages();
@@ -69,4 +72,5 @@ Technical Program Committee
 
 
 
-<div class="skill-lock"></div></section>
+    <div class="skill-lock"></div>
+</section>

@@ -1,40 +1,87 @@
-<section class="about"><h2 id="about-me">Scope of the Workshop</h2><hr class="bar"/>
+<section class="about">
+    <h2 id="about-me">Scope of the Workshop</h2>
+    <hr class="bar" />
 
-<div class="simple-text-box">
-<div class="simple-text-box-left">Motivation:</div>
-<div class="simple-text-box-right">
-<p>
-The continuous growth of Internet content, applications and services has resulted in ever more demanding requirements of <i>computing power</i>, <i>scalability</i>, <i>data processing</i>, <i>data storage</i>, <i>energy consumption</i> and <i>transfer speed</i>. To meet this, one solution is the use of the <b><i>cloud paradigm</i></b> for applications and services. It covers a broad range of distributed computing principles as well as related application paradigms, networking approaches or architecture models. 
-</p></div>
-</div>
+    <div class="simple-text-box">
+        <div class="simple-text-box-left">Motivation:</div>
+        <div class="simple-text-box-right">
+            <p>
+                The continuous growth of Internet content, applications and services has resulted in ever more demanding requirements of <i>computing power</i>, <i>scalability</i>, <i>data processing</i>, <i>data storage</i>, <i>energy consumption</i> and <i>transfer speed</i>. To meet this, one solution is the use of the <b><i>cloud paradigm</i></b> for applications and services. It covers a broad range of distributed computing principles as well as related application paradigms, networking approaches or architecture models.
+            </p>
+        </div>
+    </div>
 
-<div class="simple-text-box">
-<div class="simple-text-box-left">Scope:</div>
-<div class="simple-text-box-right">
-<p>
-This workshop covers the scientific areas around <i>Cloud Networks, Programmability inside Networks, Cloud and Fog Computing principles, Software Defined Networking, Network Function Virtualization,</i> and <i>Software Engineering approaches for Highly Distributed Applications</i>.
-</p></div>
-</div>
+    <div class="simple-text-box">
+        <div class="simple-text-box-left">Scope:</div>
+        <div class="simple-text-box-right">
+            <p>
+                This workshop covers the scientific areas around <i>Cloud Networks, Programmability inside Networks, Cloud and Fog Computing principles, Software Defined Networking, Network Function Virtualization,</i> and <i>Software Engineering approaches for Highly Distributed Applications</i>.
+            </p>
+        </div>
+    </div>
 
-<div class="simple-text-caption">
-<p>
-Submission Link: <a href="https://edas.info/N21285">https://edas.info/N21285</a><br>
-Paper registration deadline: March, 15 2016<br>
-Paper submission deadline: April 1, 2016
-</p>
-</div>
+    <div class="simple-text-caption">
+        <p>
+            Submission Link: <a href="https://edas.info/N21285">https://edas.info/N21285</a><br> Paper registration deadline: March, 15 2016<br> Paper submission deadline: April 1, 2016
+        </p>
+    </div>
 
-<div class="about-lock">
-<a href="http://www.input-project.eu"><img class="logo-icon" src="/assets/img/input.png"></a>
-<a href="http://www.arcadia-framework.eu"><img class="logo-icon" src="/assets/img/arcadia.png"></a>
-<a href="http://itc28.org"><img class="logo-icon" src="/assets/img/itc.png"></a>
-</div>
+    <div class="about-lock">
+        <a href="http://www.input-project.eu"><img class="logo-icon" src="/assets/img/input.png"></a>
+        <a href="http://www.arcadia-framework.eu"><img class="logo-icon" src="/assets/img/arcadia.png"></a>
+        <a href="http://itc28.org"><img class="logo-icon" src="/assets/img/itc.png"></a>
+    </div>
 
-<div class="simple-text-caption">
-<p>
-The workshop is supported and initiated by the two EC H2020 projects INPUT & ARCADIA. It takes place in the context of the <a href="http://itc28.org"><b>ITC 28 in Würzburg</b></a>.
-</p>
-</div>
+    <div class="simple-text-caption">
+        <p>
+            The workshop is supported and initiated by the two EC H2020 projects INPUT & ARCADIA. It takes place in the context of the <a href="http://itc28.org"><b>ITC 28 in Würzburg</b></a>.
+        </p>
+    </div>
 
 
-<div class="skill-lock"></div></section>
+
+    <div class="about-lock">
+        <div id="container">
+
+            <div class="photobanner">
+                <span class="photobanner-helper"></span>
+                <img class="first" src="assets/img/partners/wue.jpg" alt="" />
+                <script language="javascript">
+                    var random_images_array = ["cnit.jpg", "ubitech.jpg", "ibm.jpg", "sintf.jpg", "intracom.jpg", "tub.png", "athen.jpg", "poznan.jpg", "agh.jpg", "tim.jpg", "dcu.jpg", "hopu.png", "piraeus.jpg", "tuhh.jpg"];
+                    var num = random_images_array.length;
+
+                    function getRandomImage() {
+                        var num = Math.floor(Math.random() * random_images_array.length);
+                        var img = random_images_array[num];
+                        random_images_array.splice(num, 1);
+                        //alert("as: " +img + " >" + random_images_array);
+                        return img;
+                    }
+
+                    function setImages() {
+                        for (i = 0; i < num; i++) {
+                            path = 'assets/img/partners/'; // default path here
+                            var imgStr = '<img src="' + path + getRandomImage() + '" alt = ""/>';
+                            document.write(imgStr);
+                            document.close();
+                        }
+                    }
+                    setImages();
+                </script>
+            </div>
+            <div class="simple-text-caption">
+                <p>
+                    The following institutions support the workshop and participate as technical program committee members.
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="skill-lock"></div>
+</section>
