@@ -734,8 +734,7 @@ header {
 #container {
   width: 1000px;
   overflow: hidden;
-  margin: 50px auto;
-  background: white; }
+  margin: 50px auto; }
 
 .photobanner {
   width: 4550px;
