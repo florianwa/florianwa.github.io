@@ -20,24 +20,29 @@
 </section>
 
 <div id="home">
-<a href="#home" class="back-to-top">Back To Top</a><div id="container1" class="arrow"></div>
+    <a href="#home" class="back-to-top">Back To Top</a>
+    <div id="container1" class="arrow"></div>
 
-<header id="home">
-<div id="container" class="logo"></div>
-<nav>
-<a href="#about-me">Scope</a>
-<a href="#topics">Topics of Interest</a>
-<a href="#submission">Submission</a>
-<a href="#committee">Workshop Committee</a>
-<a href="#timeline">Dates and Timeline</a>
-<a href="#contact">Contact</a>
-<a href="#itc" class="highlight">ITC28</a>
-</nav>
+    <header id="home">
+        <div id="container" class="logo"></div>
+        <nav>
+            <a href="#about-me">Scope</a>
+            <a href="#topics">Topics of Interest</a>
+            <a href="#submission">Submission</a>
+            <a href="#committee">Workshop Committee</a>
+            <a href="#timeline">Dates and Timeline</a>
+            <a href="#contact">Contact</a>
+            <a href="#itc" class="highlight">ITC28</a>
+        </nav>
 
-<h1><span>PROCON 2016</span>
-<p class="kicker">First International Workshop on<br> Programmability for<br> Cloud Networks and Applications</p><p class="kicker-small">To be held in conjunction with the <a href="http://itc28.org">ITC 28 in Würzburg,</a><br>
+        <h1>
+            <span>PROCON 2016</span>
+            <p class="kicker">First International Workshop on<br> Programmability for<br> Cloud Networks and Applications</p>
+            <p class="kicker-small">To be held in conjunction with the <a href="http://itc28.org">ITC 28 in Würzburg,</a><br>
 technically co-sponsored by IEEE and VDE ITG</p>
-</header>
+        </h1>
+
+    </header>
 </div>
 
 <section class="spacer">
@@ -216,11 +221,11 @@ Workshop co-chairs
 Technical Program Committee    
 </div>
 <ul>
-<li>Chiara Lombardo, Consortium for Telecommunications (CNIT), Genova, Italy</li>
+<li>Chiara Lombardo, Consortium for Telecommunications (CNIT), Italy</li>
 <li>Michael Seufert, University of Würzburg, Germany</li>
 <li>Sergios Soursos, Intracom Telecom, Peania, Greece</li>
 <li>Ioanna Papafili, Athens University of Economics and Business, Greece</li>
-<li>Giovanni Schembra, Giovanni Schembra, Italy</li>
+<li>Giovanni Schembra, Consortium for Telecommunications (CNIT), Italy</li>
 <li>Roman Łapacz, Poznan Supercomputing and Networking Center (PSNC), Poland</li>
 <li>Krzysztof Wajda, AGH University of Science and Technology, Kraków, Poland</li>
 <li>Manzalini Antonio, Telecom Italia, Italy</li>
@@ -238,6 +243,35 @@ Technical Program Committee
 <li>Maciej Mühleisen, Hamburg University of Technology, Germany</li>
 </ul>
 </div>
+
+
+    <div id="container">
+       <div class="photobanner">
+            <span class="photobanner-helper"></span>
+            <img class="first" src="assets/img/partners/wue.jpg" alt="" />
+            <script language="javascript">
+                var random_images_array = ["cnit.jpg", "ubitech.jpg", "ibm.jpg", "sintf.jpg", "intracom.jpg", "tub.png", "athen.jpg", "poznan.jpg", "agh.jpg", "tim.jpg", "dcu.jpg", "hopu.png", "piraeus.jpg", "tuhh.jpg"];
+                var num = random_images_array.length;
+                function getRandomImage() {
+                    var num = Math.floor( Math.random() * random_images_array.length );
+                    var img = random_images_array[ num ];
+                    random_images_array.splice(num,1);
+                    //alert("as: " +img + " >" + random_images_array);
+                    return img; 
+                }
+                function setImages() {
+                    for (i = 0; i < num; i++) {
+                        path = 'assets/img/partners/'; // default path here
+                        var imgStr = '<img src="' + path + getRandomImage() + '" alt = ""/>';
+                        document.write(imgStr); document.close();
+                    }
+                }
+                setImages();
+            </script>
+        </div>
+    </div>
+
+
 
 <div class="skill-lock"></div></section>
 

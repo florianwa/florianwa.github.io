@@ -17,11 +17,11 @@ Workshop co-chairs
 Technical Program Committee    
 </div>
 <ul>
-<li>Chiara Lombardo, Consortium for Telecommunications (CNIT), Genova, Italy</li>
+<li>Chiara Lombardo, Consortium for Telecommunications (CNIT), Italy</li>
 <li>Michael Seufert, University of Würzburg, Germany</li>
 <li>Sergios Soursos, Intracom Telecom, Peania, Greece</li>
 <li>Ioanna Papafili, Athens University of Economics and Business, Greece</li>
-<li>Giovanni Schembra, Giovanni Schembra, Italy</li>
+<li>Giovanni Schembra, Consortium for Telecommunications (CNIT), Italy</li>
 <li>Roman Łapacz, Poznan Supercomputing and Networking Center (PSNC), Poland</li>
 <li>Krzysztof Wajda, AGH University of Science and Technology, Kraków, Poland</li>
 <li>Manzalini Antonio, Telecom Italia, Italy</li>
@@ -39,5 +39,34 @@ Technical Program Committee
 <li>Maciej Mühleisen, Hamburg University of Technology, Germany</li>
 </ul>
 </div>
+
+
+    <div id="container">
+       <div class="photobanner">
+            <span class="photobanner-helper"></span>
+            <img class="first" src="assets/img/partners/wue.jpg" alt="" />
+            <script language="javascript">
+                var random_images_array = ["cnit.jpg", "ubitech.jpg", "ibm.jpg", "sintf.jpg", "intracom.jpg", "tub.png", "athen.jpg", "poznan.jpg", "agh.jpg", "tim.jpg", "dcu.jpg", "hopu.png", "piraeus.jpg", "tuhh.jpg"];
+                var num = random_images_array.length;
+                function getRandomImage() {
+                    var num = Math.floor( Math.random() * random_images_array.length );
+                    var img = random_images_array[ num ];
+                    random_images_array.splice(num,1);
+                    //alert("as: " +img + " >" + random_images_array);
+                    return img; 
+                }
+                function setImages() {
+                    for (i = 0; i < num; i++) {
+                        path = 'assets/img/partners/'; // default path here
+                        var imgStr = '<img src="' + path + getRandomImage() + '" alt = ""/>';
+                        document.write(imgStr); document.close();
+                    }
+                }
+                setImages();
+            </script>
+        </div>
+    </div>
+
+
 
 <div class="skill-lock"></div></section>
