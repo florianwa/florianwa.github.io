@@ -1,3 +1,2 @@
 name: Workshop on Programmability for Cloud Networks and Applications (PROCON) 
-markdown: kramdown
 exclude: ["node_modules", "gulpfile.js", "package.json"]
